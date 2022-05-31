@@ -1,0 +1,79 @@
+
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0.36738445378151263) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
+       margin: 0%;
+        
+}
+h1{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2{
+    color: rgb(85, 64, 64);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+.botonera{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 10px;
+   
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+    margin: 5rem;
+    padding: 50px;
+    background-color: rgb(186, 197, 187);
+}
+.politica{
+    background: rgb(154,152,184);
+background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
+}
+#redes{
+    font-size: 20px;
+}
+
+
+header{
+    background-color: rgb(139, 131, 131);
+    
+    padding: 10px;
+}
+.fz{
+    height: 90px;
+    margin-right: 10px;
+    padding: 20px;
+}
+.ee{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 0px;
+    padding: 1rem;
+    }
+    .inicio{
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+    }
+ 
+   
