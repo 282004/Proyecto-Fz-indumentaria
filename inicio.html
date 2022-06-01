@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="estilos.css">
     
 </head>
@@ -31,21 +34,38 @@
             <h2 class="trans1">
                 Ofertas
             </h2>
-    <div class="grid">
-            <div>
-               
-                
-                <img src="images/TODOSLOSGORROS.jpeg" alt="" class="contenedor">
-                
-            </div>     
-                
-                <div >
-                    <img src="images/BUZOblanco.jpeg" alt="" class="contenedor">
+    
+                    
+           <div class="alinear">
+
+              
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
-                    
-                    
-            
-    </div>
+                <div class="carousel-inner fotos">
+                  <div class="carousel-item active fotoss">
+                    <img src="./images/BUZOblanco.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item fotoss">
+                    <img src="./images/buzos.jpeg" class="d-block w-100" alt="...">
+                  </div>
+                    <div class="carousel-item fotoss">
+                         <img src="./images/camperas.jpeg" class="d-block w-100" alt="...">
+                     </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                </button>
+                </div>
+            </div>  
         </main>
     <fieldset>
         <section>
@@ -64,5 +84,6 @@
           </footer>
         </section>
        </fieldset>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

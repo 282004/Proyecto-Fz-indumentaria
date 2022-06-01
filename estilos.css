@@ -37,8 +37,8 @@ h2{
     background-color: rgb(186, 197, 187);
 }
 .politica{
-    background: rgb(154,152,184);
-background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
+    background: rgb(186, 197, 187);
+    background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
 }
 #redes{
     font-size: 20px;
@@ -62,14 +62,7 @@ header{
     padding-right: 10px;
 
 }
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 0px;
-    padding: 1rem;
-    }
+
     .inicio{
         text-decoration: none;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -94,6 +87,7 @@ header{
     font-size: 3rem;
     transition: all 2s;
     width: 20%;
+    text-align: center;
 }
     
 .trans1:hover{
@@ -109,4 +103,39 @@ header{
         font-size: 35px;
     }
     
-    
+    .sobrenos{
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+    .parent3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        margin: 3.5rem;
+        padding: 35px;
+         background-color:  rgb(186, 197, 187);
+        }
+        .sobrenos2{
+            margin: 15px;
+            padding: 10px;
+            background-color:  rgb(186, 197, 187);
+            background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
+        }
+        .fotoss {
+            height: 600px;
+            width: 400px;
+            text-align: center;
+           
+        }
+        .alinear{
+            
+            display: flex;
+            justify-content: space-around;
+        }
+
+        
+        
+       
