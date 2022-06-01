@@ -76,4 +76,37 @@ header{
         color: black;
     }
  
-   
+   .product{
+       list-style: none;
+       display: flex;
+       margin: 15px;
+       
+   }
+   .parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.trans1{
+    font-size: 3rem;
+    transition: all 2s;
+    width: 20%;
+}
+    
+.trans1:hover{
+    font-size: 4rem;
+    }
+
+    .inicio{
+        font-size: 25px;
+        transition: all 1s;
+
+    }
+    .inicio:hover{
+        font-size: 35px;
+    }
+    
+    
