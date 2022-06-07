@@ -24,7 +24,7 @@ h2{
     text-decoration: none;
     font-size: 25px;
     padding-right: 10px;
-   
+    
 }
 .parent {
     display: grid;
@@ -37,8 +37,10 @@ h2{
     background-color: rgb(186, 197, 187);
 }
 .politica{
-    background: rgb(186, 197, 187);
-    background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
+    margin: 15px;
+padding: 10px;
+    background-color:  rgb(186, 197, 187);
+background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
 }
 #redes{
     font-size: 20px;
@@ -142,6 +144,40 @@ justify-content: space-around;
     padding: 1rem;
 }
 
-        
-        
+.gridCarru {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
+        .nuestrosProductos{
+            
+
+        }
+
+@media (min-width: 768px) and (max-width: 993px) {
+    .inicio{
+        font-size: 15px
+
+    }
+    #h1especial{
+        font-size: 20px;
+    }
+    .gridCarru{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+}
        
