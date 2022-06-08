@@ -38,14 +38,18 @@ h2{
 }
 .politica{
     margin: 15px;
-padding: 10px;
+    padding: 10px; 
     background-color:  rgb(186, 197, 187);
 background: linear-gradient(90deg, rgba(154,152,184,0.4430147058823529) 100%, rgba(36,163,29,0.10968137254901966) 100%, rgba(45,77,177,1) 100%);
 }
 #redes{
     font-size: 20px;
 }
-
+.footer{
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+}
 
 header{
     background-color: rgb(139, 131, 131);
@@ -136,6 +140,7 @@ width: 400px;
             
 display: flex;
 justify-content: space-around;
+
 }
 .formulario{
     margin: 20px;
@@ -152,11 +157,7 @@ justify-content: space-around;
     grid-row-gap: 0px;
     
     }
-        .nuestrosProductos{
-            
-
-        }
-
+       
 @media (min-width: 768px) and (max-width: 993px) {
     .inicio{
         font-size: 15px
@@ -166,7 +167,7 @@ justify-content: space-around;
         font-size: 20px;
     }
     .gridCarru{
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 3fr;
     }
     .parent{
@@ -180,4 +181,80 @@ justify-content: space-around;
     grid-template-rows: 1fr;
     }
 }
-       
+@media (min-width:576px) and (max-width:767px){
+    .gridCarru{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .inicio{
+        font-size: 15px
+
+    }
+    #h1especial{
+        font-size: 20px;
+    }
+    #contacto2{
+        font-size: 25px;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+    .iframe{
+        height: 200px;
+        width: 300px;
+    }
+
+}
+@media (min-width:0px) and (max-width:576px){
+
+    .gridCarru{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .inicio{
+        font-size: 13px
+
+    }
+    #h1especial{
+        font-size: 15px;
+    }
+    .nuestrosProductos{
+        font-size: 30px;
+    }
+    #productos2{
+        font-size: 18px;
+    }
+    #contacto2{
+        font-size: 20px;
+    }
+    #contacto3{
+        font-size: 18px;
+    }
+    #servicios1{
+        font-size: 18px;
+    }
+    #nosotros{
+        font-size: 18px;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+    .iframe{
+        height: 200px;
+        width: 300px;
+    }
+}
