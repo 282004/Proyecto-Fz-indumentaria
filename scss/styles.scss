@@ -1,0 +1,263 @@
+
+@import "listas";
+
+
+body{
+    background: nth($colores, 1);
+    background: linear-gradient(90deg, nth($colores, 2) 100%, nth($colores, 3) 100%, nth($colores, 4) 100%);
+       margin: 0%;
+        
+}
+h1{
+    color: nth($colores, 5);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h2{
+    color: nth($colores, 6);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+}
+.botonera{
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    padding-right: 10px;
+    
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+    margin: 5rem;
+    padding: 50px;
+    background-color: nth($colores, 7);
+}
+.politica{
+    margin: 15px;
+    padding: 10px; 
+    background-color:  nth($colores, 7);
+background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
+}
+#redes{
+    font-size: 20px;
+}
+.footer{
+    padding: 20px;
+    margin: 10px;
+    border-style: solid;
+}
+
+header{
+    background-color: nth($colores, 11);
+    
+    padding: 10px;
+}
+.fz{
+    height: 90px;
+    margin-right: 10px;
+    padding: 20px;
+}
+.ee{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-right: 10px;
+
+}
+
+    .inicio{
+        text-decoration: none;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: nth($colores, 5);
+    }
+ 
+   .product{
+       list-style: none;
+       display: flex;
+       margin: 15px;
+       
+   }
+   .parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.trans1{
+    font-size: 3rem;
+    transition: all 2s;
+    width: 20%;
+    text-align: center;
+}
+    
+.trans1:hover{
+ font-size: 4rem;
+    }
+
+    .inicio{
+ font-size: 25px;
+ transition: all 1s;
+
+    }
+    .inicio:hover{
+     font-size: 35px;
+    }
+    
+.sobrenos{
+ margin-left: 25px;
+ margin-right: 25px;
+
+    }
+.parent3 {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ grid-template-rows: 1fr;
+ grid-column-gap: 0px;
+ grid-row-gap: 0px;
+ margin: 3.5rem;
+ padding: 35px;
+  background-color:  nth($colores, 7);
+        }
+ .sobrenos2{
+margin: 15px;
+padding: 10px;
+ background-color:  nth($colores, 7);
+background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
+        }
+.fotoss {
+height: 600px;
+width: 400px;
+ text-align: center;
+           
+        }
+.alinear{
+            
+display: flex;
+justify-content: space-around;
+
+}
+.formulario{
+    margin: 20px;
+    background-color: nth($colores, 7) ;
+    border-style: solid;
+    padding: 1rem;
+}
+
+.gridCarru {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    
+    }
+       
+@media (min-width: 768px) and (max-width: 993px) {
+    .inicio{
+        font-size: 15px
+
+    }
+    #h1especial{
+        font-size: 20px;
+    }
+    .gridCarru{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .gridCarru{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .inicio{
+        font-size: 15px
+
+    }
+    #h1especial{
+        font-size: 20px;
+    }
+    #contacto2{
+        font-size: 25px;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+    .iframe{
+        height: 200px;
+        width: 300px;
+    }
+
+}
+@media (min-width:0px) and (max-width:576px){
+
+    .gridCarru{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 3fr;
+    }
+    .inicio{
+        font-size: 13px
+
+    }
+    #h1especial{
+        font-size: 15px;
+    }
+    .nuestrosProductos{
+        font-size: 30px;
+    }
+    #productos2{
+        font-size: 18px;
+    }
+    #contacto2{
+        font-size: 20px;
+    }
+    #contacto3{
+        font-size: 18px;
+    }
+    #servicios1{
+        font-size: 18px;
+    }
+    #nosotros{
+        font-size: 18px;
+    }
+    .parent{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px;
+    }
+    .parent3{
+        grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    }
+    .iframe{
+        height: 200px;
+        width: 300px;
+    }
+}
