@@ -1,17 +1,15 @@
-
 @import "listas";
-
+@import "mixin";
 
 body{
     background: nth($colores, 1);
     background: linear-gradient(90deg, nth($colores, 2) 100%, nth($colores, 3) 100%, nth($colores, 4) 100%);
-       margin: 0%;
+       margin: nth($medidas, 1);
         
 }
 h1{
-    color: nth($colores, 5);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    @include h1(nth($colores, 5),('Segoe UI', Tahoma, Geneva, Verdana, sans-serif))
+  
 }
 h2{
     color: nth($colores, 6);
@@ -19,56 +17,56 @@ h2{
     font-size: 3rem;
 }
 .botonera{
-    width: 70%;
+    width: nth($medidas, 2);
     list-style: none;
     display: flex;
     justify-content: space-around;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
-    font-size: 25px;
-    padding-right: 10px;
+    font-size: nth($medidas, 3);
+    padding-right: nth($medidas, 4);
     
 }
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 100px;
-    grid-row-gap: 0px;
-    margin: 5rem;
-    padding: 50px;
+    grid-column-gap: nth($medidas, 5);
+    grid-row-gap: nth($medidas, 6);
+    margin: nth($medidas, 7);
+    padding:nth($medidas, 8);
     background-color: nth($colores, 7);
 }
 .politica{
-    margin: 15px;
-    padding: 10px; 
+    margin: nth($medidas, 9);
+    padding: nth($medidas, 4); 
     background-color:  nth($colores, 7);
 background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
 }
 #redes{
-    font-size: 20px;
+    font-size: nth($medidas, 10);
 }
 .footer{
-    padding: 20px;
-    margin: 10px;
+    padding: nth($medidas, 10);
+    margin:nth($medidas, 4);
     border-style: solid;
 }
 
 header{
     background-color: nth($colores, 11);
     
-    padding: 10px;
+    padding: nth($medidas, 4);
 }
 .fz{
-    height: 90px;
-    margin-right: 10px;
-    padding: 20px;
+    height: nth($medidas, 11);
+    margin-right: nth($medidas, 4);
+    padding: nth($medidas, 10);
 }
 .ee{
     display: flex;
     align-items: center;
-    font-weight: 600;
-    padding-right: 10px;
+    font-weight: nth($medidas, 12);
+    padding-right: nth($medidas, 4);
 
 }
 
@@ -81,61 +79,61 @@ header{
    .product{
        list-style: none;
        display: flex;
-       margin: 15px;
+       margin: nth($medidas, 9);
        
    }
    .parent2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: nth($medidas, 6);
+    grid-row-gap: nth($medidas, 6);
     }
     
 .trans1{
-    font-size: 3rem;
+    font-size: nth($medidas, 13);
     transition: all 2s;
-    width: 20%;
+    width: nth($medidas, 14);
     text-align: center;
 }
     
 .trans1:hover{
- font-size: 4rem;
+ font-size: nth($medidas, 15);
     }
 
     .inicio{
- font-size: 25px;
- transition: all 1s;
+ font-size: nth($medidas, 3);
+ transition: all 0.5s;
 
     }
     .inicio:hover{
-     font-size: 35px;
+     font-size: nth($medidas, 16);
     }
     
 .sobrenos{
- margin-left: 25px;
- margin-right: 25px;
+ margin-left: nth($medidas, 3);
+ margin-right: nth($medidas, 3);
 
     }
 .parent3 {
  display: grid;
  grid-template-columns: repeat(3, 1fr);
  grid-template-rows: 1fr;
- grid-column-gap: 0px;
- grid-row-gap: 0px;
- margin: 3.5rem;
- padding: 35px;
+ grid-column-gap: nth($medidas, 6);
+ grid-row-gap: nth($medidas, 6);
+ margin:nth($medidas, 17);
+ padding: nth($medidas, 16);
   background-color:  nth($colores, 7);
         }
  .sobrenos2{
-margin: 15px;
-padding: 10px;
+margin: nth($medidas, 9);
+padding: nth($medidas, 4);
  background-color:  nth($colores, 7);
 background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
         }
 .fotoss {
-height: 600px;
-width: 400px;
+height: nth($medidas, 12);
+width: nth($medidas, 18);
  text-align: center;
            
         }
@@ -146,28 +144,28 @@ justify-content: space-around;
 
 }
 .formulario{
-    margin: 20px;
+    margin: nth($medidas, 10);
     background-color: nth($colores, 7) ;
     border-style: solid;
-    padding: 1rem;
+    padding: nth($medidas, 19);
 }
 
 .gridCarru {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-column-gap: nth($medidas, 6);
+    grid-row-gap: nth($medidas, 6);
     
     }
        
-@media (min-width: 768px) and (max-width: 993px) {
+@media (min-width: nth($medidas, 20)) and (max-width:nth($medidas, 21)) {
     .inicio{
-        font-size: 15px
+        font-size: nth($medidas, 9)
 
     }
     #h1especial{
-        font-size: 20px;
+        font-size: nth($medidas, 10);
     }
     .gridCarru{
         grid-template-columns: repeat(2, 1fr);
@@ -176,88 +174,88 @@ justify-content: space-around;
     .parent{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-    margin-inline: 10px;
-    margin-block-start: 20px;
+    margin-inline: nth($medidas, 4);
+    margin-block-start: nth($medidas, 10);
     }
     .parent3{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
     }
 }
-@media (min-width:576px) and (max-width:767px){
+@media (min-width:nth($medidas, 22)) and (max-width:nth($medidas, 23)){
     .gridCarru{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 3fr;
     }
     .inicio{
-        font-size: 15px
+        font-size: nth($medidas, 9)
 
     }
     #h1especial{
-        font-size: 20px;
+        font-size: nth($medidas, 10);
     }
     #contacto2{
-        font-size: 25px;
+        font-size: nth($medidas, 3);
     }
     .parent{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-    margin-inline: 10px;
-    margin-block-start: 20px;
+    margin-inline: nth($medidas, 4);
+    margin-block-start: nth($medidas, 10);
     }
     .parent3{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
     }
     .iframe{
-        height: 200px;
-        width: 300px;
+        height: nth($medidas, 24);
+        width: nth($medidas, 25);
     }
 
 }
-@media (min-width:0px) and (max-width:576px){
+@media (min-width:nth($medidas, 6)) and (max-width:nth($medidas, 22)){
 
     .gridCarru{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 3fr;
     }
     .inicio{
-        font-size: 13px
+        font-size: nth($medidas, 26)
 
     }
     #h1especial{
-        font-size: 15px;
+        font-size: nth($medidas, 9);
     }
     .nuestrosProductos{
-        font-size: 30px;
+        font-size: nth($medidas, 27);
     }
     #productos2{
-        font-size: 18px;
+        font-size: nth($medidas, 28);
     }
     #contacto2{
-        font-size: 20px;
+        font-size: nth($medidas, 10);
     }
     #contacto3{
-        font-size: 18px;
+        font-size: nth($medidas, 28);
     }
     #servicios1{
-        font-size: 18px;
+        font-size: nth($medidas, 28);
     }
     #nosotros{
-        font-size: 18px;
+        font-size: nth($medidas, 28);
     }
     .parent{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
-    margin-inline: 10px;
-    margin-block-start: 20px;
+    margin-inline: nth($medidas, 4);
+    margin-block-start: nth($medidas, 10);
     }
     .parent3{
         grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr;
     }
     .iframe{
-        height: 200px;
-        width: 300px;
+        height: nth($medidas, 24);
+        width: nth($medidas, 25);
     }
 }

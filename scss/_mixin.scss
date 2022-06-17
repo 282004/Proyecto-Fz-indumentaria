@@ -1,0 +1,6 @@
+@import "listas";
+
+@mixin h1($color,$font){
+    color: $color;
+    font-family: $font;
+}
