@@ -206,3 +206,16 @@ header {
   .iframe {
     height: 200px;
     width: 300px; } }
+
+    @media (min-width: 820px) and (max-width: 1215Px){
+      .gridCarru {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 3fr; }
+    }
+    @media (min-width: 995px) and (max-width: 1380Px){
+      .parent {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        margin-inline: 10px;
+        margin-block-start: 20px; }
+    }
