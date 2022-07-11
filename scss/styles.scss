@@ -27,6 +27,9 @@ h2{
     padding-right: nth($medidas, 4);
     
 }
+#contacto2{
+    padding: 20px;
+  }
 .parent {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -36,6 +39,8 @@ h2{
     margin: nth($medidas, 7);
     padding:nth($medidas, 8);
     background-color: nth($colores, 7);
+    background-color: #bac5bb; 
+    border: solid; 
 }
 .politica{
     margin: nth($medidas, 9);
@@ -43,9 +48,8 @@ h2{
     background-color:  nth($colores, 7);
 background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
 }
-#redes{
-    font-size: nth($medidas, 10);
-}
+
+
 .footer{
     padding: nth($medidas, 10);
     margin:nth($medidas, 4);
@@ -95,8 +99,12 @@ header{
     transition: all 2s;
     width: nth($medidas, 14);
     text-align: center;
+    width: 100%;
 }
-    
+#redes {
+    font-size: 20px; 
+    width: 30%;
+  }
 .trans1:hover{
  font-size: nth($medidas, 15);
     }
@@ -124,23 +132,34 @@ header{
  margin:nth($medidas, 17);
  padding: nth($medidas, 16);
   background-color:  nth($colores, 7);
-        }
+  border: solid;       
+}
  .sobrenos2{
 margin: nth($medidas, 9);
 padding: nth($medidas, 4);
  background-color:  nth($colores, 7);
 background: linear-gradient(90deg, nth($colores, 8) 100%, nth($colores, 9) 100%, nth($colores, 10) 100%);
-        }
+border: solid;     
+}
 .fotoss {
 height: nth($medidas, 12);
 width: nth($medidas, 18);
  text-align: center;
+ 
+ margin: 2rem;
+ border: solid; padding: 1.2rem;
            
         }
+
+ .nuestrosProductos{
+    text-align: center;
+  }
+          
 .alinear{
             
 display: flex;
 justify-content: space-around;
+transition-duration: initial 0.6s ;
 
 }
 .formulario{
@@ -158,6 +177,17 @@ justify-content: space-around;
     grid-row-gap: nth($medidas, 6);
     
     }
+.fotoss:hover {filter: opacity(.5);}
+
+.footer2{
+  width: 30%;
+  justify-content: space-around;
+}
+
+.mapa{
+  justify-content: space-between;
+  width: 100%;
+}
        
 @media (min-width: nth($medidas, 20)) and (max-width:nth($medidas, 21)) {
     .inicio{
@@ -259,3 +289,8 @@ justify-content: space-around;
         width: nth($medidas, 25);
     }
 }
+.servi{
+    text-align: center;
+    padding: 10px;
+  }
+  
