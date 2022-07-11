@@ -73,7 +73,7 @@ header {
 
 .ee {
   display: flex;
-  align-items: center;
+  justify-content: space-around;
   font-weight: 600px;
   padding-right: 10px; }
 
@@ -149,13 +149,18 @@ header {
 .fotoss:hover {filter: opacity(.5);}
 
 .footer2{
-  width: 30%;
+  width: 15%;
   justify-content: space-around;
 }
 
 .mapa{
   justify-content: space-between;
   width: 100%;
+  width: 450px;
+  height: 250px;
+}
+.politicas{
+  font-size: 3rem;
 }
 
 .alinear {
@@ -191,7 +196,7 @@ header {
     margin-left: 3.5rem;
     }
     .parent5 {
-      display: grid;
+    display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
@@ -199,6 +204,31 @@ header {
       font-family: 'Koulen', cursive ;
       font-size: 17px;
       }
+      .imgmedidas{
+        height: 500px;
+        width: 350px;
+      }
+.parent6{
+        
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+ grid-column-gap: 0px;
+grid-row-gap: 0px;
+  }
+.iframe1{
+  width: 600px;
+  height: 450px;
+ }
+.parent8{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+   text-align: center;
+}
+
 
 @media (min-width: 768px) and (max-width: 993px) {
   .inicio {
@@ -222,7 +252,7 @@ header {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 3fr; }
   .inicio {
-    font-size: 15px; }
+    font-size: 25px; }
   #h1especial {
     font-size: 20px; }
   #contacto2 {
@@ -244,7 +274,7 @@ header {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 3fr; }
   .inicio {
-    font-size: 13px; }
+    font-size: 25px; }
   #h1especial {
     font-size: 15px; }
   .nuestrosProductos {
@@ -269,18 +299,106 @@ header {
     grid-template-rows: 1fr; }
   .iframe {
     height: 200px;
-    width: 300px; } }
+    width: 250px; } }
 
-    @media (min-width: 820px) and (max-width: 1215Px){
+@media (min-width: 820px) and (max-width: 1215Px){
       .gridCarru {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 3fr; }
     }
-    @media (min-width: 995px) and (max-width: 1380Px){
+@media (min-width: 995px) and (max-width: 1380Px){
       .parent {
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: 1fr;
         margin-inline: 10px;
         margin-block-start: 20px; }
+  }
+@media (max-width: 1346Px){
+        .parent5{
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        .iframe1{
+          width: 300px;
+          height: 400px;
+
+        }
+
     }
-  
+@media (max-width: 890Px){
+      .parent5{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+    }
+  }
+@media (max-width: 550Px){
+    .trans1 {
+      font-size: 2rem;
+      transition: none;}
+    .trans1:hover {
+      font-size: 2rem; }
+    .imgmedidas{
+        height: 350px;
+        width: 230px;}
+  .fotoss{
+    height: 500px;
+    width: 270px;
+  }
+
+  .parent6{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      
+  }
+  #politicas{
+    font-size: 1.7rem;
+  }
+  #politicass{
+    font-size: 1.7rem;
+  }
+  #politicasss{
+    font-size: 1.7rem;
+  }
+  #politicas{
+    font-size: 1.7rem;
+  }
+  #somos{
+    font-size: 1.6rem;
+  }
+  #somoss{
+    font-size: 1.6rem;
+  }
+  #somosss{
+    font-size: 1.6rem;
+  }
+  .iframe1{
+    width: 140px;
+    height: 200px;
+
+  }
+  .sobrenos2 {
+    margin: 10px;
+    padding: 5px;
+ 
+  }
+}
+@media (max-width: 1486px){
+  .parent4{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+}
+@media (max-width: 995px){
+  .parent4 {
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    margin-left: 0rem
+}
+}
+@media (max-width: 995px){
+.ee{
+  font-size: 30px;
+}
+}

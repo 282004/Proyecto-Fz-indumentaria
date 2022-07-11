@@ -294,3 +294,73 @@ transition-duration: initial 0.6s ;
     padding: 10px;
   }
   
+  @media (max-width: 550Px){
+    .trans1 {
+      font-size: 2rem;
+      transition: none;}
+    .trans1:hover {
+      font-size: 2rem; }
+    .imgmedidas{
+        height: 350px;
+        width: 230px;}
+  .fotoss{
+    height: 450px;
+    width: 270px;
+  }
+
+  .parent6{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+      
+  }
+  #politicas{
+    font-size: 1.7rem;
+  }
+  #politicass{
+    font-size: 1.7rem;
+  }
+  #politicasss{
+    font-size: 1.7rem;
+  }
+  #politicas{
+    font-size: 1.7rem;
+  }
+  #somos{
+    font-size: 1.6rem;
+  }
+  #somoss{
+    font-size: 1.6rem;
+  }
+  #somosss{
+    font-size: 1.6rem;
+  }
+  .iframe1{
+    width: 140px;
+    height: 200px;
+
+  }
+  .sobrenos2 {
+    margin: 10px;
+    padding: 5px;
+ 
+  }
+}
+@media (max-width: 1486px){
+  .parent4{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+}
+@media (max-width: 995px){
+  .parent4 {
+    
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    margin-left: 0rem
+}
+}
+@media (max-width: 995px){
+.ee{
+  font-size: 30px;
+}
+}
