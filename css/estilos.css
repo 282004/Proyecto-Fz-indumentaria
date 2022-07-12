@@ -189,8 +189,8 @@ header {
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    font-family: 'Koulen', cursive ;
-    font-size: 25px;
+    font-family: 'Koulen';
+    font-size: 18px;
     width: 100%;
     padding: auto;
     margin-left: 3.5rem;
@@ -201,8 +201,8 @@ header {
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
-      font-family: 'Koulen' ;
-      font-size: 17px;
+      font-family: 'Koulen';
+      font-size: 18px;
       }
       .imgmedidas{
         height: 500px;
@@ -236,7 +236,7 @@ grid-row-gap: 0px;
   .inicio {
     font-size: 25px; }
   #h1especial {
-    font-size: 15px; }
+    font-size: 26px; }
   .nuestrosProductos {
     font-size: 30px; }
   #productos2 {
@@ -303,7 +303,7 @@ grid-row-gap: 0px;
   .inicio {
     font-size: 25px; }
   #h1especial {
-    font-size: 20px; }
+    font-size: 30px; }
   #contacto2 {
     font-size: 25px; }
   .parent {
@@ -323,7 +323,7 @@ grid-row-gap: 0px;
   .inicio {
     font-size: 15px; }
   #h1especial {
-    font-size: 20px; }
+    font-size: 30px; }
   .gridCarru {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 3fr; }
