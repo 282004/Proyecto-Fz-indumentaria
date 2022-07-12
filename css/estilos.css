@@ -149,7 +149,7 @@ header {
 .fotoss:hover {filter: opacity(.5);}
 
 .footer2{
-  width: 15%;
+  width: 65%;
   justify-content: space-around;
 }
 
@@ -289,12 +289,14 @@ grid-row-gap: 0px;
   font-size: 1.6rem;}
 #somosss{
   font-size: 1.6rem;}
-.iframe1{
-  width: 140px;
-  height: 200px;}
+
 .sobrenos2 {
   margin: 10px;
-  padding: 5px;}}
+  padding: 5px;}
+  .iframe1{
+    width: 130px;
+    height: 250px;
+  }}
     
 @media (min-width: 576px) and (max-width: 767px) {
   .gridCarru {
@@ -317,7 +319,7 @@ grid-row-gap: 0px;
   .iframe {
     height: 200px;
     width: 300px; } }
-
+    
   
 @media (min-width: 768px) and (max-width: 993px) {
   .inicio {
@@ -349,14 +351,14 @@ grid-row-gap: 0px;
         margin-inline: 10px;
         margin-block-start: 20px; }
   }
-@media (max-width: 1346Px){
+@media  (min-width: 551px) and (max-width: 1346Px){
         .parent5{
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
         }
         .iframe1{
-          width: 150px;
-          height: 230px;
+          width: 300px;
+          height: 430px;
         }
 
     }
