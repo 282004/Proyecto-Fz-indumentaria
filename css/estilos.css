@@ -67,7 +67,7 @@ header {
   padding: 10px; }
 
 .fz {
-  height: 90px;
+  height: 100px;
   margin-right: 10px;
   padding: 20px; }
 
@@ -355,8 +355,8 @@ grid-row-gap: 0px;
             grid-template-rows: repeat(2, 1fr);
         }
         .iframe1{
-          width: 300px;
-          height: 400px;
+          width: 150px;
+          height: 230px;
         }
 
     }
