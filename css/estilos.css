@@ -201,7 +201,7 @@ header {
       grid-template-rows: 1fr;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
-      font-family: 'Koulen', cursive ;
+      font-family: 'Koulen' ;
       font-size: 17px;
       }
       .imgmedidas{
@@ -226,48 +226,8 @@ grid-row-gap: 0px;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-   text-align: center;
+    text-align: center;
 }
-
-
-@media (min-width: 768px) and (max-width: 993px) {
-  .inicio {
-    font-size: 15px; }
-  #h1especial {
-    font-size: 20px; }
-  .gridCarru {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 3fr; }
-  .parent {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
-    margin-inline: 10px;
-    margin-block-start: 20px; }
-  .parent3 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr; } }
-
-@media (min-width: 576px) and (max-width: 767px) {
-  .gridCarru {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 3fr; }
-  .inicio {
-    font-size: 25px; }
-  #h1especial {
-    font-size: 20px; }
-  #contacto2 {
-    font-size: 25px; }
-  .parent {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr;
-    margin-inline: 10px;
-    margin-block-start: 20px; }
-  .parent3 {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 1fr; }
-  .iframe {
-    height: 200px;
-    width: 300px; } }
 
 @media (min-width: 0px) and (max-width: 576px) {
   .gridCarru {
@@ -300,6 +260,82 @@ grid-row-gap: 0px;
   .iframe {
     height: 200px;
     width: 250px; } }
+@media (max-width: 550Px){
+.trans1 {
+  font-size: 2rem;
+  transition: none;}
+.trans1:hover {
+  font-size: 2rem; }
+.imgmedidas{
+  height: 350px;
+  width: 230px;}
+.fotoss{
+  height: 500px;
+  width: 270px;}
+.parent6{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);}
+#politicas{
+  font-size: 1.7rem;}
+#politicass{
+  font-size: 1.7rem;}
+#politicasss{
+ font-size: 1.7rem;}
+#politicas{
+ font-size: 1.7rem;}
+#somos{
+  font-size: 1.6rem;}
+#somoss{
+  font-size: 1.6rem;}
+#somosss{
+  font-size: 1.6rem;}
+.iframe1{
+  width: 140px;
+  height: 200px;}
+.sobrenos2 {
+  margin: 10px;
+  padding: 5px;}}
+    
+@media (min-width: 576px) and (max-width: 767px) {
+  .gridCarru {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 3fr; }
+  .inicio {
+    font-size: 25px; }
+  #h1especial {
+    font-size: 20px; }
+  #contacto2 {
+    font-size: 25px; }
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px; }
+  .parent3 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr; }
+  .iframe {
+    height: 200px;
+    width: 300px; } }
+
+  
+@media (min-width: 768px) and (max-width: 993px) {
+  .inicio {
+    font-size: 15px; }
+  #h1especial {
+    font-size: 20px; }
+  .gridCarru {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr; }
+  .parent {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr;
+    margin-inline: 10px;
+    margin-block-start: 20px; }
+  .parent3 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: 1fr; } 
+}
 
 @media (min-width: 820px) and (max-width: 1215Px){
       .gridCarru {
@@ -321,7 +357,6 @@ grid-row-gap: 0px;
         .iframe1{
           width: 300px;
           height: 400px;
-
         }
 
     }
@@ -329,76 +364,26 @@ grid-row-gap: 0px;
       .parent5{
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(1, 1fr);
-
     }
   }
-@media (max-width: 550Px){
-    .trans1 {
-      font-size: 2rem;
-      transition: none;}
-    .trans1:hover {
-      font-size: 2rem; }
-    .imgmedidas{
-        height: 350px;
-        width: 230px;}
-  .fotoss{
-    height: 500px;
-    width: 270px;
-  }
-
-  .parent6{
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(2, 1fr);
-      
-  }
-  #politicas{
-    font-size: 1.7rem;
-  }
-  #politicass{
-    font-size: 1.7rem;
-  }
-  #politicasss{
-    font-size: 1.7rem;
-  }
-  #politicas{
-    font-size: 1.7rem;
-  }
-  #somos{
-    font-size: 1.6rem;
-  }
-  #somoss{
-    font-size: 1.6rem;
-  }
-  #somosss{
-    font-size: 1.6rem;
-  }
-  .iframe1{
-    width: 140px;
-    height: 200px;
-
-  }
-  .sobrenos2 {
-    margin: 10px;
-    padding: 5px;
- 
-  }
-}
 @media (max-width: 1486px){
   .parent4{
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-}
+    grid-template-rows: repeat(5, 1fr);}
 }
 @media (max-width: 995px){
   .parent4 {
     
     grid-template-columns: 1fr;
     grid-template-rows: repeat(9, 1fr);
-    margin-left: 0rem
+    margin-left: 0rem}
+  .ee{
+    font-size: 30px;
+  }
 }
-}
-@media (max-width: 995px){
-.ee{
-  font-size: 30px;
-}
+
+@media (max-width: 767px){
+  .parent8{
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr;}
 }
